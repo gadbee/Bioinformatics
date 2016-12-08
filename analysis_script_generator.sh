@@ -1,5 +1,5 @@
 #!/bin/bash
-#Generate analysis script for every sample. The fastq files are generated from bam files in script "sort_and_bam2fastq.sh". Script content was written by my colleague Du Xiaohong.
+#Generate analysis script for every sample. The fastq files are generated from bam files in script "sort_and_bam2fastq.sh". Almost all content of generated script was written by my colleague Du Xiaohong.
 for i in $(ls )
 do
     echo "#!/bin/bash
