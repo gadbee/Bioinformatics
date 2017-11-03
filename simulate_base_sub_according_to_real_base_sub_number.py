@@ -22,18 +22,18 @@ def selected_mutations(a,b,c):
     return selected_base_sub
 mut_aas = {}
 for i in range(1,10000):
-    selected_AC = selected_mutations('A','C',53)
-    selected_AG = selected_mutations('A','G',263)
-    selected_AT = selected_mutations('A','T',31)
-    selected_CA = selected_mutations('C','A',77)
+    selected_AC = selected_mutations('A','C',57)
+    selected_AG = selected_mutations('A','G',269)
+    selected_AT = selected_mutations('A','T',34)
+    selected_CA = selected_mutations('C','A',83)
     selected_CG = selected_mutations('C','G',11)
-    selected_CT = selected_mutations('C','T',286)
-    selected_GA = selected_mutations('G','A',1712)
-    selected_GC = selected_mutations('G','C',61)
+    selected_CT = selected_mutations('C','T',313)
+    selected_GA = selected_mutations('G','A',1866)
+    selected_GC = selected_mutations('G','C',65)
     selected_GT = selected_mutations('G','T',28)
     selected_TA = selected_mutations('T','A',20)
-    selected_TC = selected_mutations('T','C',1117)
-    selected_TG = selected_mutations('T','G',17)
+    selected_TC = selected_mutations('T','C',1210)
+    selected_TG = selected_mutations('T','G',18)
 
     selected = [selected_AC,selected_AG,selected_AT,selected_CA,selected_CG,selected_CT,selected_GA,selected_GC,selected_GT,selected_TA,selected_TC,selected_TG]
 
